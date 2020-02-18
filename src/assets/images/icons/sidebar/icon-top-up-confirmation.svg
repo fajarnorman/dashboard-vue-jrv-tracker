@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>E0348775-8372-405F-8067-F17093911317</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Component" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="🖥-Icons" transform="translate(-178.000000, -368.000000)" fill="#B4A2B4">
+            <g id="Sidebar">
+                <g id="icon-top-up-confirmation_export" transform="translate(178.000000, 368.000000)">
+                    <g id="⚛️/icon/24/top-up-confirmation">
+                        <g id="16px_p-check" transform="translate(5.000000, 3.000000)">
+                            <circle id="Oval" fill-rule="nonzero" cx="6" cy="13" r="1"></circle>
+                            <path d="M4.758,16 L2,16 L2,2 L10,2 L10.001,12.757 L12,10.757 L12,2 C12,0.897 11.103,0 10,0 L2,0 C0.897,0 0,0.897 0,2 L0,16 C0,17.103 0.897,18 2,18 L6.758,18 L4.758,16 Z" id="Shape" fill-rule="nonzero"></path>
+                            <path d="M10,18 C9.73473945,18.000274 9.4803053,17.8948296 9.293,17.707 L7.293,15.707 L8.707,14.293 L10,15.586 L13.293,12.293 L14.707,13.707 L10.707,17.707 C10.5196947,17.8948296 10.2652605,18.000274 10,18 Z" id="Shape" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

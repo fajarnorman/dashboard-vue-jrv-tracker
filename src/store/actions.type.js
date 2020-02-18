@@ -1,0 +1,7 @@
+export const LOGOUT = "logout"
+export const CHECK_AUTH = "checkAuth"
+export const FETCH_DATA_DEVICES = "fetchDataDevices"
+export const FETCH_DATA_DETAIL_DEVICES = "fetchDataDetailDevices"
+export const SAVE_DATA_DEVICES = "saveDevices"
+export const CHECK_TOKEN = "checkToken"
+export const FETCH_INFO = "fetchInfo"

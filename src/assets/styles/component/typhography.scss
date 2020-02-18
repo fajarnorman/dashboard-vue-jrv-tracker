@@ -1,0 +1,24 @@
+// @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+h1, h2, h3, h4, h5, h6{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.fontIcons{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: $colorDark_400;
+}
+a{
+    &[disabled]{
+        cursor: not-allowed;
+        opacity: .65;
+        filter: alpha(opacity=65);
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        pointer-events: none;
+    }
+}

@@ -1,0 +1,85 @@
+.fade-enter-active, .fade-leave-active {
+    transition-property: opacity !important;
+    transition-duration: .3s !important;
+    position: absolute;
+    width: 100% !important;
+    right: 0;
+}
+.fade-enter-active {
+    transition-delay: .3s !important;
+}
+.fade-enter, .fade-leave-active {
+    opacity: 0 !important
+}
+
+/* Enter and leave animations can use different */
+/* durations and timing functions.              */
+.slide-down-enter-active {
+    transition: all .3s ease;
+}
+.slide-down-leave-active {
+    transition: all .3s ease;
+}
+.slide-down-enter, .slide-down-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+    transform: translateY(-10px);
+    opacity: 0;
+}
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+  
+
+@-webkit-keyframes rotation {
+    0% { -webkit-transform: rotate(0deg) }
+    100% { -webkit-transform: rotate(360deg) }
+}
+@-moz-keyframes rotation {
+    0% { -moz-transform: rotate(0deg) }
+    100% { -moz-transform: rotate(360deg) }
+}
+@-ms-keyframes rotation {
+    0% { -ms-transform: rotate(0deg) }
+    100% { -ms-transform: rotate(360deg) }
+}
+@-o-keyframes rotation {
+    0% { -o-transform: rotate(0deg) }
+    100% { -o-transform: rotate(360deg) }
+}
+@keyframes rotation {
+    0% { transform: rotate(0deg) }
+    100% { transform: rotate(360deg) }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>A1541B52-5ABE-423C-9797-C497FBDF8F90</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Component" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="🖥-Icons" transform="translate(-310.000000, -432.000000)" stroke="#B4A2B4">
+            <g id="Sidebar">
+                <g id="icon-list-produsen" transform="translate(310.000000, 432.000000)">
+                    <g id="⚛️/icon/24/list-produsen">
+                        <g id="24px_home-2" transform="translate(3.000000, 3.000000)">
+                            <polyline id="Shape" stroke-width="2" stroke-linecap="round" points="0 4 9 0 18 4"></polyline>
+                            <path d="M15,17 L3,17 L3,15.9496 C3,14.9792 3.62142832,14.104 4.58228507,13.732 C5.55514181,13.356 7.00285551,13 8.99999755,13 C10.9971396,13 12.4448533,13.356 13.41771,13.7328 C14.3773251,14.1046369 15.0020196,14.9798412 14.9999951,15.9496 L15,17 Z" id="Shape" stroke-width="2" stroke-linecap="square"></path>
+                            <circle id="Oval" stroke-width="2" stroke-linecap="square" cx="9" cy="7" r="3"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

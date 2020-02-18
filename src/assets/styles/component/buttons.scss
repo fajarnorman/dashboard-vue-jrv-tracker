@@ -1,0 +1,252 @@
+.button{
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 50px;
+    min-width: 140px;
+    text-align: center;
+    font-weight: 500;
+    transition: all .4s ease;
+    &.button-white-green{
+        color: $colorWhite_500;
+        background: $colorGreen_500;
+        border: 1px solid $colorGreen_700;
+        &:hover{
+            background: $colorGreen_50;
+        }
+    }
+    &.button-white-critical{
+        color: $colorWhite_500;
+        background: $colorRed_500;
+        border: 1px solid $colorRed_700;
+        &:hover{
+            background: $colorRed_50;
+        }
+    }
+    &.button-dark-warning{
+        color: $colorDark_500;
+        background: $colorYellow_500;
+        border: 1px solid $colorYellow_700;
+        &:hover{
+            background: $colorYellow_50;
+        }
+        &:focus{
+
+        }
+        &:visited{
+            
+        }
+    }
+}
+.app{
+    .el-button{
+        outline: none;
+        &.is-round{
+            padding: 7.5px 23px;
+        }
+        span{
+            font-weight: 600;
+            display: block;
+            line-height: normal;
+        }
+        &.button-white-green{
+            color: $colorWhite_500;
+            background: $colorPrimaryLight;
+            border: 1px solid $colorPrimaryLight;
+            &:hover{
+                @include background-opacity($colorPrimaryLight, 0.75);
+            }
+            &:focus{
+                background: $colorPrimaryLight;
+                border: 1px solid $colorPrimaryLight;
+            }
+            &::visited{
+                @include background-opacity($colorPrimaryLight, 0.75);
+            }
+        }
+        &.button-white-critical{
+            color: $colorWhite_500;
+            background: $colorRed_500;
+            border: 1px solid $colorRed_700;
+            &:hover{
+                @include background-opacity($colorRed_700, 0.75);
+            }
+            &:focus{
+                background: $colorGreen_500;
+                border: 1px solid $colorGreen_500;
+            }
+            &::visited{
+                @include background-opacity($colorRed_700, 0.75);
+            }
+        }
+        &.button-dark-warning{
+            color: $colorDark_500;
+            background: $colorYellow_500;
+            border: 1px solid $colorYellow_700;
+            &:hover{
+                @include background-opacity($colorYellow_700, 0.75);
+            }
+            &:focus{
+                background: $colorGreen_500;
+                border: 1px solid $colorGreen_500;
+            }
+            &::visited{
+                @include background-opacity($colorYellow_700, 0.9);
+            }
+        }
+        &.button-outline-green{
+            color: $colorPrimaryLight;
+            background: $colorWhite_500;
+            &:hover{
+                @include background-opacity($colorPrimaryLight, 0.15);
+                border: 1px solid $colorWhite_700;
+            }
+            &:focus{
+                @include background-opacity($colorPurple_100, 0.75);
+                border: 2px solid $colorPrimaryLight;
+            }
+            &:visited{
+                @include background-opacity($colorPrimaryLight, 0.75);
+                border: 1px solid $colorPrimaryLight;
+            }
+        }
+        &.button-outline-red{
+            color: $colorRed_700;
+            background: $colorWhite_500;
+            &:hover{
+                background: $colorRed_50;
+                border: 1px solid $colorWhite_700;
+            }
+            &:focus{
+                background: $colorRed_50;
+                border: 2px solid $colorRed_700;
+            }
+            &:visited{
+                background: $colorRed_50;
+                border: 1px solid $colorRed_700;
+            }
+        }
+        &.button-outline-black{
+            color: $colorDark_400;
+            background: $colorWhite_500;
+            &:hover{
+                background: $colorWhite_50;
+                border: 1px solid $colorWhite_700;
+            }
+            &:focus{
+                color: $colorDark_500;
+                background: $colorWhite_800;
+            }
+        }
+        &:disabled{
+            color: $colorDark_50;
+            background: $colorWhite_700;
+            border: 1px solid $colorWhite_800;
+            &:hover{
+                color: $colorDark_50;
+                background: $colorWhite_700;
+                border: 1px solid $colorWhite_800;
+            }
+        }
+    }
+}
+.showing-page{
+    span{
+        color: $colorDark_500;
+        font-size: 14px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 15px;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        vertical-align: middle;
+        li{
+            display: inline-block;
+            margin-right: 5px;
+            &.active{
+                a{
+                    border-bottom: 2px solid $colorDark_500;
+                    color: $colorDark_500;
+                    font-weight: 700;
+                }
+            }
+            a{
+                color: $colorDark_400;
+                display: block;
+                padding: 2px 3px;
+                line-height: normal;
+                font-size: 14px;
+            }
+        }
+    }
+}
+.pagination-result{
+    span{
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 14px;
+        margin-right: 15px;
+    }
+    .el-pagination{
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 0;
+        .btn-prev{
+            margin-right: 10px;
+            i{
+                &:before{
+                    content: '';
+                    width: 16px;
+                    height: 16px;
+                    background-image: url(../../images/icons/arrow-left.png);
+                    display: block;
+                }
+            }
+        }
+        .btn-next{
+            i{
+                &:before{
+                    content: '';
+                    width: 16px;
+                    height: 16px;
+                    background-image: url(../../images/icons/arrow-right.png);
+                    display: block;
+                }
+            }
+        }
+        .btn-prev, .btn-next{
+            min-width: 24px;
+            height: 24px;
+        }
+        li{
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 10px;
+            min-width: 24px;
+            height: 24px;
+            color: $colorDark_400;
+            border-radius: 3px;
+            text-align: center;
+            padding: 0 6px;
+            font-size: 14px;
+            outline: none;
+            line-height: 24px;
+            &:hover{
+                color: $colorWhite_500;
+                background: $colorDark_500;
+            }
+            &.active{
+                color: $colorWhite_500;
+                background: $colorDark_500;
+            }
+        }
+        .el-pager{
+            .more::before{
+                line-height: 24.7777px;
+            }
+        }
+    }
+}

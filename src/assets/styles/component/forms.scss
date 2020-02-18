@@ -1,0 +1,736 @@
+// Input Overide from component Element.io
+.app{
+    .el-input, .el-textarea{
+        .el-input__inner{
+            height: 36px;
+            line-height: 36px;
+            font-size: 14px;
+            color: $colorDark_500;
+            border: 1px solid $colorWhite_800;
+            &:disabled{
+                background-color: $colorWhite_800;
+                color: $colorDark_400;
+                cursor: not-allowed;
+            }
+            &::-webkit-input-placeholder {
+                color: $colorDark_300 !important;
+            }
+            &::-moz-placeholder {
+                color: $colorDark_300 !important;
+            }
+            &:-ms-input-placeholder {
+                color: $colorDark_300 !important;
+            }
+            &:-moz-placeholder {
+                color: $colorDark_300 !important;
+            }
+            &:focus{
+                border: 2px solid $colorPrimaryLight;
+                border-radius: 3px;
+            }
+        }
+        .el-input__icon{
+            line-height: 36px;
+        }
+        &.readonly{
+            .el-input__inner{
+                &:read-only{
+                    background-color: $colorWhite_800;
+                    color: $colorDark_500;
+                    cursor: default;
+                    &:focus{
+                        border: 1px solid $colorWhite_800;
+                    }
+                }
+            }
+        }
+        .el-textarea__inner{
+            font-family: 'Open Sans', sans-serif;
+            &::-webkit-input-placeholder {
+                color: $colorDark_300 !important;
+            }
+            &::-moz-placeholder {
+                color: $colorDark_300 !important;
+            }
+            &:-ms-input-placeholder {
+                color: $colorDark_300 !important;
+            }
+            &:-moz-placeholder {
+                color: $colorDark_300 !important;
+            }
+            &:focus{
+                border: 2px solid $colorPrimaryLight;
+                border-radius: 3px;
+            }
+        }
+    }
+    .el-select{
+        &.cursor-is-allowed{
+            input.el-input__inner{
+                cursor: pointer;
+            }
+            .el-input__suffix{
+                .el-select__caret{
+                    cursor: pointer;
+                }
+            }
+        }
+        .el-input.is-focus{
+            .el-input__inner{
+                border: 2px solid $colorPrimaryLight;
+                border-radius: 3px;
+            }
+        }
+        .el-input{
+            span.el-input__suffix{
+                .el-input__suffix-inner{
+                    i{
+                        transform-origin: 70% 49%;
+                        margin-right: 5px;
+                        &:before{
+                            content: '';
+                            width: 16px;
+                            height: 16px;
+                            background: url(../../images/icons/arrow-up.png);
+                            background-size: cover;
+                            display: inline-block;
+                            vertical-align: middle;
+                            margin-top: 5px;
+                        }
+                        &:after{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+        .el-tag{
+            border-radius: 25px;
+            color: $colorDark_500;
+        }
+        .el-tag__close.el-icon-close{
+            color: $colorDark_50;
+            background: transparent;
+        }
+    }
+    .input-with-icons{
+        position: relative;
+        .el-input{
+            .el-input__inner{
+                padding-right: 30px;
+            }
+        }
+        img{
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    .el-checkbox__input{
+        .el-checkbox__inner{
+            width: 18px;
+            height: 18px;
+            border: 2px solid $colorDark_50;
+            border-radius: 3px;
+            &:after{
+                top: 2px;
+                left: 4px;
+                height: 6px;
+                width: 3px;
+                border-width: 2px;
+            }
+        }
+        &.is-indeterminate{
+            .el-checkbox__inner{
+                background-color: $colorPrimaryLight;
+                border-color: $colorPrimaryLight;
+                &:before{
+                    height: 4px;
+                    top: 5px;
+                }
+            }
+        }
+        &.is-checked{
+            .el-checkbox__inner{
+                background-color: $colorPrimaryLight;
+                border-color: $colorPrimaryLight;
+            }
+            &+.el-checkbox__label{
+                color: $colorDark_500;
+                vertical-align: middle;
+                font-weight: normal;
+                position: relative;
+                line-height: normal;
+                top: -1px;
+            }
+        }
+        &.is-focus{
+            .el-checkbox__inner{
+                border-color: $colorPrimaryLight;
+            }
+        }
+    }
+    .el-radio__input{
+        &.is-checked{
+            .el-radio__inner{
+                border-color: $colorPrimaryLight;
+                background: $colorPrimaryLight;
+            }
+            &+.el-radio__label{
+                color: $colorDark_500;
+            }
+        }
+        .el-radio__inner{
+            width: 18px;
+            height: 18px;
+            &::after{
+                width: 6px;
+                height: 6px;
+            }
+        }
+    }
+    .el-date-editor{
+        .el-input__prefix{
+            .el-icon-date{
+                &:before{
+                    content: '';
+                    width: 16px;
+                    height: 16px;
+                    background: url(../../images/icons/calendar.png) no-repeat;
+                    display: block;
+                    margin-top: 12px;
+                    margin-left: 5px;
+                }
+            }
+            .el-icon-time{
+                &:before{
+                    content: '';
+                    width: 16px;
+                    height: 16px;
+                    background: url(../../images/icons/time.png) no-repeat;
+                    display: block;
+                    margin-top: 12px;
+                    margin-left: 5px;
+                }
+            }
+        }
+        .el-input__inner{
+            padding-left: 35px;
+        }
+        &.el-input, &.el-input__inner{
+            width: 100%;
+        }
+        &.el-range-editor{
+            height: 36px;
+            line-height: 36px;
+            padding: 2px 10px;
+            &.is-active, &.is-active:hover{
+                border: 2px solid $colorPrimaryLight;
+            }
+            .el-icon-date{
+                &:before{
+                    content: '';
+                    width: 16px;
+                    height: 16px;
+                    background: url(../../images/icons/calendar.png) no-repeat;
+                    display: block;
+                    margin-top: 7px;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+    .el-form-item{
+        margin-bottom: 0;
+        &.is-success{
+            .el-input__inner{
+                border: 1px solid $colorWhite_800 !important;
+            }
+            .el-input__validateIcon{
+                display: none;
+            }
+        }
+        label{
+            text-align: left;
+            float: none;
+            width: auto !important;
+            display: block;
+            line-height: normal;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+        .el-form-item__content{
+            width: 100% !important;
+            margin-left: 0 !important;
+        }
+    }
+    .el-form-item{
+        &.is-required{
+            .el-form-item__label{
+                &:before{
+                    display: none;
+                }
+            }
+        }
+    }
+    .forms-side-by-side{
+        .el-form-item{
+            label{
+                width: 110px !important;
+                display: inline-block;
+            }
+            .el-form-item__content{
+                width: auto !important;
+                margin-left: 0 !important;
+                line-height: normal;
+                display: inline-block;
+            }
+        }
+    }
+    .el-input-number{
+        line-height: 34px;
+        width: 100%;
+        .el-input-number__decrease,
+        .el-input-number__increase{
+            &:hover{
+                color: $colorPrimaryLight;
+                &:not(.is-disabled){
+                    &~.el-input{
+                        .el-input__inner{
+                            &:not(.is-disabled){
+                                border-color: $colorPrimaryLight;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        // .el-input-number__decrease:hover:not(.is-disabled)~.el-input .el-input__inner:not(.is-disabled),
+        // .el-input-number__increase:hover:not(.is-disabled)~.el-input .el-input__inner:not(.is-disabled){
+
+        // }
+    }
+    .el-switch{
+        &.is-checked{
+            .el-switch__core{
+                border-color: $colorPrimaryLight;
+                background-color: $colorPrimaryLight;
+            }
+        }
+    }
+    .el-input-group__append{
+        // border-color: $colorPrimaryLight;
+        // background: $colorPrimaryLight;
+        // color: $colorWhite_500;
+        color: #27293F;
+        font-size: 13px;
+    }
+    .el-input-group__prepend{
+        // border-color: $colorPrimaryLight;
+        // background: $colorPrimaryLight;
+        // color: $colorWhite_500;
+        color: #27293F;
+        font-size: 13px;
+    }
+    .searchtype{
+        img{
+            transition: all .4s ease;
+            transform-origin: center center;
+        }
+    }
+    .selectUser{
+        &:focus{
+            &~img{
+                transform: translateY(-50%) rotateX(180deg);
+            }
+        }
+    }
+    .dropdown-filterable{
+        position: absolute;
+        width: 21em;
+        margin-top: 10px;
+        z-index: 100;
+        display: none;
+        &.dropdown-showing{
+            display: block;
+        }
+        &:before{
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-left: 7px solid transparent;
+            border-right: 7px solid transparent;
+            border-bottom: 7px solid $colorWhite_500;
+            top: -7px;
+            left: 10px;
+            z-index: 2;
+        }
+        &:after{
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-left: 9px solid transparent;
+            border-right: 9px solid transparent;
+            border-bottom: 9px solid #ddd;
+            top: -8px;
+            left: 8px;
+        }
+        ul{
+            padding: 0;
+            list-style: none;
+            background: $colorWhite_500;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 4px 0;
+            max-height: 274px;
+            overflow-y: auto;
+            margin-top: 0;
+            li{
+                &:hover{
+                    a{
+                        background: #f5f7fa;
+                    }
+                }
+                a{
+                    display: block;
+                    padding: 6px 10px;
+                    color: #606266;
+                    line-height: normal;
+                    &.active{
+                        font-weight: 600;
+                        color: $colorPrimaryLight;
+                        background: #f5f7fa;
+                    }
+                }
+            }
+        }
+    }
+    .detailsValue{
+        .el-checkbox__label{
+            font-size: 13px;
+        }
+        .el-radio-button__orig-radio:checked+.el-radio-button__inner{
+            background-color: $colorPrimaryLight;
+            border-color: $colorPrimaryLight;
+            color: $colorWhite_500;
+            box-shadow: -1px 0 0 0 $colorPrimaryLight;
+        }
+        .el-radio-button__inner:hover{
+            color: $colorPrimaryLight;
+        }
+    }
+    .roles-value-set-v2{
+        .el-checkbox{
+            display: inline-block;
+            margin-right: 15px;
+            width: 31% !important;
+        }
+        .el-checkbox+.el-checkbox{
+            margin-left: 0;
+        }
+    }
+    .roles-value-set{
+        .el-checkbox+.el-checkbox{
+            margin-left: 0;
+        }
+	}
+	.select-prepend{
+		display: block;
+		.el-input-group__prepend, .el-select{
+			display: inline-block !important;
+		}
+		.el-input-group__prepend{
+			width: auto;
+			height: 36px;
+			line-height: 34px;
+			margin-right: -3px;
+			z-index: 20;
+			position: relative;
+			top: -1px;
+		}
+		.el-select{
+			.el-input__inner{
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;
+			}
+		}
+	}
+}
+.el-select-dropdown__item{
+	&.selected{
+		color: $colorPrimaryLight !important;
+		// display: none;
+	}
+}
+.custom-select-width{
+	.el-select-dropdown{
+		width: 40%;
+	}
+	.el-select-dropdown__item{
+		height: auto !important;
+		line-height: normal !important;
+		padding: 5px 20px 10px !important;
+		margin-bottom: 5px;
+		white-space: normal;
+	}
+}
+#detail-userupgraderequest{
+    .forms-details{
+        .radio-model{
+            border: none;
+            &.el-radio-group{
+                label{
+                    padding: 0;
+                    .el-radio-button__inner{
+                        width: 100%;
+                    }
+                }
+            }
+            .el-radio-button__orig-radio:checked+.el-radio-button__inner{
+                background: $colorPrimaryLight;
+                color: $colorWhite_500 !important;
+                outline: none;
+                border-color: $colorPrimaryLight !important;
+                box-shadow: none !important;
+            }
+            .el-radio-button__inner:hover,
+            .el-radio-button__inner:focus{
+                color: $colorPrimaryLight;
+                outline: none;
+                box-shadow: none !important;
+            }
+        }
+        .el-radio-group{
+            label{
+                padding: 7.5px 15px;
+            }
+        }
+    }
+}
+.forms-details{
+    margin-top: 15px;
+    label{
+        font-size: 14px;
+        color: $colorDark_400;
+        display: block;
+        &>div{
+            margin-top: 5px;
+            display: block;
+            &.el-date-editor{
+                width: 100%;
+            }
+        }
+    }
+    .el-row{
+        .el-col{
+            margin-bottom: 20px;
+            .el-select{
+                display: block;
+            }
+        }
+    }
+    .el-radio-group{
+        display: block;
+        border: 1px solid $colorWhite_800;
+        border-radius: 3px;
+        display: flex;
+        label{
+            // display: inline-block;
+            margin-bottom: 0;
+            padding: 8px 15px;
+            width: 100% !important;
+            font-weight: normal;
+            color: $colorDark_500;
+            border-right: 1px solid $colorWhite_800;
+            margin-left: 0;
+            text-align: center;
+            &:last-child{
+                border-right: none;
+                margin-left: 0;
+            }
+        }
+    }
+}
+.el-date-picker,
+.el-date-range-picker{
+    .el-date-table{
+        td{
+            span{
+                border-radius: 3px;
+            }
+            &.current:not(.disabled){
+                span{
+                    background-color: $colorPrimaryLight !important;
+                    border-radius: 3px;
+                    color: $colorWhite_500 !important;
+                }
+            }
+            &.available{
+                &:hover{
+                    color: $colorPrimaryLight !important;
+                }
+            }
+            &.today{
+                span{
+                    color: $colorPrimaryLight !important;
+                }
+            }
+            &.end-date span, &.start-date span{
+                background: $colorPrimaryLight !important;
+                color: $colorWhite_500 !important;
+            }
+            &.in-range div,
+            &.in-range div:hover{
+                background-color: $colorGreen_50;
+                border-radius: 0 !important;
+            }
+        }
+    }
+    .el-date-picker__header{
+        button[aria-label='Previous Year']{
+            position: relative;
+            &:before{
+                content: '';
+                width: 16px;
+                height: 16px;
+                background: url(../../images/icons/arrow-left.png) no-repeat;
+                display: block;
+                position: absolute;
+                left: 0;
+            }
+            &:after{
+                content: '';
+                width: 16px;
+                height: 16px;
+                background: url(../../images/icons/arrow-left.png) no-repeat;
+                display: block;
+                position: absolute;
+                left: 4px;
+            }
+        }
+        button[aria-label='Next Year']{
+            position: relative;
+            &:before{
+                content: '';
+                width: 16px;
+                height: 16px;
+                background: url(../../images/icons/arrow-right.png) no-repeat;
+                display: block;
+                position: absolute;
+                right: 0;
+            }
+            &:after{
+                content: '';
+                width: 16px;
+                height: 16px;
+                background: url(../../images/icons/arrow-right.png) no-repeat;
+                display: block;
+                position: absolute;
+                right: 4px;
+            }
+        }
+        button[aria-label='Previous Month']{
+            &:before{
+                content: '';
+                width: 16px;
+                height: 16px;
+                background: url(../../images/icons/arrow-left.png) no-repeat;
+                display: block;
+            }
+        }
+        button[aria-label='Next Month']{
+            &:before{
+                content: '';
+                width: 16px;
+                height: 16px;
+                background: url(../../images/icons/arrow-right.png) no-repeat;
+                display: block;
+            }
+        }
+    }
+    .el-date-picker__header-label.active,
+    .el-date-picker__header-label:hover,
+    .el-month-table td .cell:hover,
+    .el-month-table td.current:not(.disabled) .cell{
+        color: $colorPrimaryLight;
+    }
+    .el-date-range-picker__content{
+        &.is-left{
+            .el-date-range-picker__header{
+                button.el-icon-d-arrow-left{
+                    position: relative;
+                    &:before{
+                        content: '';
+                        width: 16px;
+                        height: 16px;
+                        background: url(../../images/icons/arrow-left.png) no-repeat;
+                        display: block;
+                        position: absolute;
+                        left: 0;
+                    }
+                    &:after{
+                        content: '';
+                        width: 16px;
+                        height: 16px;
+                        background: url(../../images/icons/arrow-left.png) no-repeat;
+                        display: block;
+                        position: absolute;
+                        left: 4px;
+                    }
+                }
+                button.el-icon-arrow-left{
+                    &:before{
+                        content: '';
+                        width: 16px;
+                        height: 16px;
+                        background: url(../../images/icons/arrow-left.png) no-repeat;
+                        display: block;
+                    }
+                }
+            }
+        }
+        &.is-right{
+            button.el-icon-d-arrow-right{
+                position: relative;
+                &:before{
+                    content: '';
+                    width: 16px;
+                    height: 16px;
+                    background: url(../../images/icons/arrow-right.png) no-repeat;
+                    display: block;
+                    position: absolute;
+                    right: 0;
+                }
+                &:after{
+                    content: '';
+                    width: 16px;
+                    height: 16px;
+                    background: url(../../images/icons/arrow-right.png) no-repeat;
+                    display: block;
+                    position: absolute;
+                    right: 4px;
+                }
+            }
+            button.el-icon-arrow-right{
+                &:before{
+                    content: '';
+                    width: 16px;
+                    height: 16px;
+                    background: url(../../images/icons/arrow-right.png) no-repeat;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+}
+.full-width-select{
+    width: 100%;
+}

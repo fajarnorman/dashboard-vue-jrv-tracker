@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>2CBF8D65-22E2-4563-B25D-F1FC628F3BE1</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="⚛️/icon/24/produk-digital" fill="#697586" fill-rule="nonzero">
+            <g id="24px_mobile-card" transform="translate(3.000000, 3.000000)">
+                <path d="M11,9 L13,9 L13,15 C13,16.4522847 11.4522847,18 10,18 L3,18 C1.54771525,18 0,16.4522847 0,15 L0,4 C0,2.54771525 1.54771525,1 3,1 L7,1 L7,3 L3,3 C2.65228475,3 2,3.65228475 2,4 L2,15 C2,15.3477153 2.65228475,16 3,16 L10,16 C10.3477153,16 11,15.3477153 11,15 L11,9 Z" id="Shape"></path>
+                <circle id="Oval" cx="6.5" cy="13.5" r="1.5"></circle>
+                <path d="M16,8 L16,2 L7,2 L7,8 L16,8 Z M5,9 L5,1 C5,0.44771525 5.44771525,1.01453063e-16 6,0 L17,0 C17.5522847,-1.01453063e-16 18,0.44771525 18,1 L18,9 C18,9.55228475 17.5522847,10 17,10 L6,10 C5.44771525,10 5,9.55228475 5,9 Z" id="Shape"></path>
+                <path d="M9,5 L9,5 C9,4.44771525 9.44771525,4 10,4 L13,4 C13.5522847,4 14,4.44771525 14,5 L14,5 C14,5.55228475 13.5522847,6 13,6 L10,6 C9.44771525,6 9,5.55228475 9,5 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

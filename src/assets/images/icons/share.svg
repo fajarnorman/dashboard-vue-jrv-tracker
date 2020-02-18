@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>6C7BB171-009B-45AC-9EA2-BD070E023E44</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M12,6 C13.654,6 15,4.654 15,3 C15,1.346 13.654,0 12,0 C10.346,0 9,1.346 9,3 C9,3.223 9.029,3.439 9.075,3.649 L5.855,5.661 C5.32983105,5.236121 4.67551151,5.00296455 4,5 C2.346,5 1,6.346 1,8 C1,9.654 2.346,11 4,11 C4.67551151,10.9970355 5.32983105,10.763879 5.855,10.339 L9.075,12.351 C9.029,12.561 9,12.777 9,13 C9,14.654 10.346,16 12,16 C13.654,16 15,14.654 15,13 C15,11.346 13.654,10 12,10 C11.3244885,10.0029645 10.6701689,10.236121 10.145,10.661 L6.925,8.649 C6.971,8.439 7,8.223 7,8 C7,7.777 6.971,7.561 6.925,7.351 L10.145,5.339 C10.6701689,5.763879 11.3244885,5.99703545 12,6 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="⚛️/icon/16/share">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#111111" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="⚛️/🌈/Dark-400" mask="url(#mask-2)" fill="#697586">
+                <rect id="Rectangle" x="0" y="0" width="16" height="16"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,33 @@
+@media print {
+	#Header{
+		display: none;
+	}
+	.page-container{
+		padding-top: 20px;
+		padding-bottom: 0;
+	}
+	#delivery-sale{
+		display: none;
+	}
+	.notes-print-view{
+		display: inline-block;
+		vertical-align: top;
+		white-space: pre-line;
+		width: 85%;
+		p{
+			margin-bottom: 5px !important;
+		}
+		ul{
+			padding-left: 20px !important;
+		}
+		ol{
+			padding-left: 15px !important;
+		}
+	}
+	html, body {
+		height:100%;
+		margin: 0 !important;
+		padding: 0 !important;
+		// overflow: hidden;
+	}
+}

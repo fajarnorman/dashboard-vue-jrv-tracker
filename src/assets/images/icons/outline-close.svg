@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>F924C165-A1FB-487C-8EAA-5436EA440397</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M8,0 C3.589,0 0,3.589 0,8 C0,12.411 3.589,16 8,16 C12.411,16 16,12.411 16,8 C16,3.589 12.411,0 8,0 M8,14 C4.691,14 2,11.309 2,8 C2,4.691 4.691,2 8,2 C11.309,2 14,4.691 14,8 C14,11.309 11.309,14 8,14 M11,7 L9,7 L9,5 C9,4.448 8.553,4 8,4 C7.447,4 7,4.448 7,5 L7,7 L5,7 C4.447,7 4,7.448 4,8 C4,8.552 4.447,9 5,9 L7,9 L7,11 C7,11.552 7.447,12 8,12 C8.553,12 9,11.552 9,11 L9,9 L11,9 C11.553,9 12,8.552 12,8 C12,7.448 11.553,7 11,7" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="🖥-Icons" transform="translate(-318.000000, -760.000000)">
+            <g id="Sidebar" transform="translate(46.000000, 534.000000)">
+                <g id="⚛️/icon/16/outline-close" transform="translate(272.000000, 226.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#919EAB" fill-rule="evenodd" transform="translate(8.000000, 8.000000) rotate(45.000000) translate(-8.000000, -8.000000) " xlink:href="#path-1"></use>
+                    <g id="⚛️/🌈/Dark-400" mask="url(#mask-2)" fill="#697586" fill-rule="evenodd">
+                        <g transform="translate(-4.000000, -7.000000)" id="Rectangle">
+                            <rect x="0" y="0" width="40" height="40"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

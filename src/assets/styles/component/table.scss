@@ -1,0 +1,211 @@
+table{
+    font-size: 14px;
+}
+.loading-table{
+    position: absolute;;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.15);
+    z-index: 10;
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+    span{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+.blury{
+    position: relative;
+    &:before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(255, 255, 255, 0.75);
+        z-index: 10;
+    }
+}
+.mobayar-table{
+    border: 1px solid $colorWhite_800 !important;
+    border-radius: 3px;
+    border-bottom: none !important;
+    thead{
+        tr{
+            background: $colorWhite_50;
+            th{
+                background: $colorWhite_50;
+                color: $colorDark_500;
+                font-size: 13px;
+                font-weight: 600;
+                min-height: 47px;
+                padding: 7px 0;
+                border-bottom: 1px solid #dfe4e8;
+            }
+        }
+    }
+    tbody{
+        tr{
+            &:last-child{
+                border-bottom: 0;
+            }
+            td{
+                font-size: 13px;
+                min-height: 47px;
+                padding: 7px 0;
+                border-bottom: 1px solid #dfe4e8;
+            }
+        }
+    }
+    .el-loading-spinner{
+        .path{
+            stroke: $colorGreen_500;
+        }
+	}
+	&.mobayar-table-v2{
+		thead{
+			tr{
+				background: $colorWhite_50;
+				th{
+					background: $colorWhite_50;
+					color: $colorDark_500;
+					font-size: 13px;
+					font-weight: 600;
+					min-height: 47px;
+					padding: 10px;
+					border-bottom: 1px solid #dfe4e8;
+				}
+			}
+		}
+		tbody{
+			tr{
+				&:last-child{
+					border-bottom: 0;
+				}
+				td{
+					font-size: 13px;
+					min-height: 47px;
+					padding: 10px;
+					border-bottom: 1px solid #dfe4e8;
+				}
+			}
+		}
+	}
+}
+.mobayar-actions-bottom{
+    background: $colorWhite_500;
+    border: 1px solid #dfe4e8;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top: 0;
+    padding: 20px;
+    .total-report{
+        float: none;
+        margin-left: -20px;
+        margin-right: -20px;
+        padding: 15px;
+        padding-top: 0;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #dfe4e8;
+        .span-report{
+            background: $colorWhite_50;
+            border: 1px solid $colorWhite_800;
+            border-radius: 3px;
+            padding: 7px 13px;
+            font-size: 14px;
+            font-weight: 600;
+            float: right;
+            span{
+                margin-right: 50px;
+                vertical-align: middle;
+            }
+        }
+    }
+}
+.after-checked-section{
+    position: fixed;
+    bottom: -50%;
+    width: 100%;
+    background: $colorWhite_500;
+    padding: 20px;
+    z-index: 100;
+    box-shadow: 0 -1px 8px 0 rgba(0, 0, 0, 0.07);
+    left: 0;
+    transition: all .4s ease;
+    max-height: 88px;
+    .page-container{
+        width: 97.555%;
+        padding-top: 0;
+    }
+    &.active{
+        bottom: 0;
+    }
+    .sidebar-checked{
+        padding: 0 !important;
+        display: table-cell;
+        vertical-align: top;
+        width: 260px;
+    }
+    .content-wrapper{
+        padding: 0;
+        .el-select{
+            margin-right: 25px;
+            .el-input{
+                input{
+                    border-radius: 50px;
+                }
+            }
+        }
+    }
+    .el-checkbox{
+        margin-bottom: 0;
+        margin-top: 8px;
+        margin-left: 5px;
+    }
+}
+.filterstatus{
+    background: $colorWhite_500;
+    border: 1px solid $colorWhite_800;
+    border-bottom: none;
+    padding: 20px 25px 0;
+    margin-bottom: -1px;
+    .el-tabs__content{
+        display: none;
+    }
+}
+.app{
+    .el-tabs__nav-wrap{
+        &::after{
+            background-color: transparent !important;
+        }
+    }
+    .el-tabs__header{
+        margin-bottom: 0;
+    }
+    .el-tabs__item{
+        line-height: normal;
+        height: 30px;
+        color: $colorDark_400;
+        font-weight: normal;
+        &:hover{
+            color: $colorDark_500;
+        }
+        &.is-active{
+            color: $colorDark_500;
+            font-weight: 600;
+        }
+    }
+    .el-tabs__active-bar{
+        background-color: $colorPrimaryLight;
+        height: 3px;
+    }
+    .el-table tr{
+        cursor: pointer;
+    }
+}

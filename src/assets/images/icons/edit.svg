@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>42850715-2483-4C57-8BC1-0E3992C74FE1</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M15,9 C15.6,9 16,9.4 16,10 L16,15 C16,15.6 15.6,16 15,16 L1,16 C0.4,16 0,15.6 0,15 L0,1 C0,0.4 0.4,0 1,0 L6,0 C6.6,0 7,0.4 7,1 C7,1.6 6.6,2 6,2 L2,2 L2,14 L14,14 L14,10 C14,9.4 14.4,9 15,9 Z M14.1,0.3 L15.7,1.9 C16.1,2.3 16.1,2.9 15.7,3.3 L9,10 L6,10 L6,7 L12.7,0.3 C13.1,-0.1 13.7,-0.1 14.1,0.3 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="🖥-Icons" transform="translate(-46.000000, -704.000000)">
+            <g id="Sidebar" transform="translate(46.000000, 534.000000)">
+                <g id="⚛️/icon/16/edit" transform="translate(0.000000, 170.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#111111" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <g id="⚛️/🌈/Dark-400" mask="url(#mask-2)" fill="#697586" fill-rule="evenodd">
+                        <g transform="translate(-4.000000, -7.000000)" id="Rectangle">
+                            <rect x="0" y="0" width="40" height="40"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

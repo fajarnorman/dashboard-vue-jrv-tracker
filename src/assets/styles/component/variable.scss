@@ -1,0 +1,49 @@
+/* 
+Variable Color Primary
+500 is primary color
+50 is light color 
+*/
+
+// Green
+$colorGreen_500: #39B54D;
+$colorGreen_700: #1A892E;
+$colorGreen_50: #EBF8ED;
+
+// Dark
+$colorDark_500: #39434E;
+$colorDark_400: #697586;
+$colorDark_300: #919EAB;
+$colorDark_50: #BFC9D8;
+
+// Red
+$colorRed_500: #FA5252;
+$colorRed_700: #DC1818;
+$colorRed_50: #FFF2F2;
+
+// White
+$colorWhite_500: #FFFFFF;
+$colorWhite_800: #DFE4E8;
+$colorWhite_700: #F3F4F6;
+$colorWhite_50: #F6F8FA;
+
+// Yellow
+$colorYellow_500: #FFCF1F;
+$colorYellow_700: #E6BA1C;
+$colorYellow_50: #FFF8DE;
+
+// Blue
+$colorBlue_500: #0566FF;
+$colorBlue_600: #0456D9;
+$colorBlue_50: #F2F9FF;
+
+// Purple
+$colorPurple_800: #270827; 
+$colorPurple_700: #1a001a;
+$colorPurple_500: #420442;
+$colorPurple_300: #800080;
+$colorPurple_100: #b4a2b4;
+$colorPurple_50: #ffeeff;
+
+// Color Primary
+$colorPrimary: $colorPurple_500;
+$colorPrimaryLight: $colorPurple_300;

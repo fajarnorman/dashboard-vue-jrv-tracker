@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>91428763-7E06-4CF3-AFE2-E36FD5E460E0</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M6.78323149,0.596658127 C7.45523418,-0.0753445638 8.53922651,-0.0808838703 9.21676851,0.596658127 L15.4033419,6.78323149 C16.0753446,7.45523418 16.0808839,8.53922651 15.4033419,9.21676851 L9.21676851,15.4033419 C8.54476582,16.0753446 7.46077349,16.0808839 6.78323149,15.4033419 L0.596658127,9.21676851 C-0.0753445638,8.54476582 -0.0808838703,7.46077349 0.596658127,6.78323149 L6.78323149,0.596658127 Z M7,11.9994502 C7,12.5514019 7.44774477,13 8,13 C8.55225523,13 9,12.5514019 9,11.9994502 C9,11.4474986 8.55225523,11 8,11 C7.44774477,11 7,11.4474986 7,11.9994502 Z M9,9.00375366 L9,3.99972534 C9,3.52083325 8.73931885,2.99743652 8,2.99743652 C7.26068115,2.99743652 7,3.52083325 7,3.99972534 L7,9.00375366 C7,9.48264575 7.30142212,10 8,10 C8.69857788,10 9,9.48264575 9,9.00375366 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="⚛️/icon/16/error">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FF5630" xlink:href="#path-1"></use>
+            <g id="⚛️/🌈/Dark-400" mask="url(#mask-2)" fill="#fff">
+                <g transform="translate(-4.000000, -7.000000)" id="Rectangle">
+                    <rect x="0" y="0" width="40" height="40"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

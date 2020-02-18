@@ -1,0 +1,107 @@
+.app{
+    .fileForm{
+        &.dragging{
+            .custom-upload-images{
+                background: $colorWhite_50;
+            }
+        }    
+    }
+    .custom-upload-images{
+        background: $colorWhite_500;
+        border: 2px dashed $colorWhite_800;
+        width: 100%;
+        border-radius: 3px;
+        min-height: 175px;
+        position: relative;
+        text-align: center;
+        transition: all .4s ease;
+        &:hover{
+            background: $colorWhite_50;
+        }
+        .custom-upload-tag{
+            position: absolute;
+            opacity: 0;
+            visibility: hidden;
+        }
+        .result-upload-img{
+            .file-listing{
+                img{
+                    display: block;
+                    margin: 0 auto;
+                    margin-top: 25px;
+                    border-radius: 5px;
+                    max-height: 100px;
+                }
+                span{
+                    color: $colorDark_500;
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+                .status-container{
+                    color: $colorDark_400;
+                    font-size: 12px;
+                    line-height: normal;
+                    margin-bottom: 20px;
+                    margin-top: -10px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .img-upload-tittle{
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            border: 1px solid $colorWhite_800;
+            display: inline-block;
+            position: relative;
+            margin-top: 38px;
+            .icons, img{
+                min-width: 30px;
+                height: 30px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                opacity: .4;
+            }
+        }
+        .text{
+            color: $colorDark_400;
+            font-size: 13px;
+            line-height: normal;
+            margin-top: -5px;
+            a{
+                color: $colorGreen_700;
+                font-weight: 600;
+            }
+        }
+        .progressbar-content{
+            margin-top: 3.5em;
+            h4{
+                font-size: 14px;
+                font-weight: 600;
+                color: $colorDark_500;
+                line-height: normal;
+                margin-bottom: 15px;   
+            }
+        }
+        .progressbar{
+            width: 50%;
+            background-color: $colorWhite_800;
+            border-radius: 10px;
+            margin: 0 auto;
+            margin-top: 0;            
+            .myBar{
+                width: 0%;
+                height: 4px;
+                background-color: $colorPrimaryLight;
+                border-radius: 10px;
+            }
+        }
+    }
+    .offline-hub{
+        .el-form-item__content{
+            line-height: normal;
+        }
+    }
+}

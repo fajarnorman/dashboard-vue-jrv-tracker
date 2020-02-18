@@ -1,0 +1,37 @@
+.app{
+    .badge{
+        background: #eee;
+        padding: 0px 12px;
+        line-height: 23px;
+        border-radius: 50px;
+        font-size: 11px;
+        vertical-align: top;
+        height: 23px;
+        display: block;
+        color: $colorWhite_500;
+        text-align: center;
+        font-weight: bold;
+        &.inline{
+            display: inline-block;
+        }
+        &.primary{
+            background: $colorPrimaryLight;
+        }
+        &.success{
+            background: $colorGreen_500;
+        }
+        &.pending{
+            background: $colorYellow_500;
+            color: $colorDark_500;
+        }
+        &.failed{
+            background: $colorRed_500;
+        }
+        &.request{
+            background: $colorBlue_600;
+        }
+        &.confirmed_by_agent{
+            background: $colorPurple_500;
+        }
+    }
+}

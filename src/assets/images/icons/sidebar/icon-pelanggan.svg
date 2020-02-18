@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>C7D45C38-0A1F-4E51-A770-E777498FA86F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Component" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="🖥-Icons" transform="translate(-178.000000, -240.000000)" stroke="#B4A2B4">
+            <g id="Sidebar">
+                <g id="icon-pelanggan_export" transform="translate(178.000000, 240.000000)">
+                    <g id="⚛️/icon/24/pelanggan">
+                        <g id="24px_multiple-11" transform="translate(3.000000, 4.000000)">
+                            <path d="M3,4 C2.44771525,4 2,3.55228475 2,3 C2,2.44771525 2.44771525,2 3,2 C3.55228475,2 4,2.44771525 4,3 C4,3.55228475 3.55228475,4 3,4 Z" id="Shape" stroke-width="2"></path>
+                            <path d="M4,15 L2,15 L2,11.9973145 L0,11.9973145 L0,8 C-5.55111512e-17,7.19667673 0.118297525,7 1.00195312,7 L2,7" id="Shape" stroke-width="2"></path>
+                            <path d="M15,4 C15.5522847,4 16,3.55228475 16,3 C16,2.44771525 15.5522847,2 15,2 C14.4477153,2 14,2.44771525 14,3 C14,3.55228475 14.4477153,4 15,4 Z" id="Shape" stroke-width="2"></path>
+                            <path d="M14,15 L16,15 L16,11.9961548 L18,11.9961548 L18,8 C18,7.19667673 17.8867684,7 17.0031128,7 L16,7" id="Shape" stroke-width="2"></path>
+                            <path d="M9,4 C8.28546882,4.00000001 7.62521478,3.61880217 7.26794919,3.00000001 C6.9106836,2.38119785 6.9106836,1.61880215 7.26794919,0.999999991 C7.62521478,0.381197834 8.28546882,-1.06473442e-08 9,0 C9.71453118,-1.06473443e-08 10.3747852,0.381197834 10.7320508,0.999999991 C11.0893164,1.61880215 11.0893164,2.38119785 10.7320508,3.00000001 C10.3747852,3.61880217 9.71453118,4.00000001 9,4 Z" id="Shape" stroke-width="2"></path>
+                            <path d="M10.9994507,16 L6.99798584,16 L6.99798584,11.9990845 L5,11.9990845 L5,8.38461538 C5,7.61991342 5.23003621,7 6.00323486,7 L11.9976807,7 C12.7708793,7 13,7.61991342 13,8.38461538 L13,11.9990845 L10.9994507,11.9990845 L10.9994507,16 Z" id="Shape" stroke-width="2"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+.cards{
+    padding: 25px;
+    border: solid 1px $colorWhite_800;
+    background: $colorWhite_500;
+    &.green{
+        border-top: 3px solid $colorPrimaryLight;
+    }
+    &.bg-purple{
+        background: $colorPrimaryLight;
+        border: 1px solid $colorPrimaryLight;
+    }
+    &.bg-grey{
+        background: $colorDark_400;
+        border: 1px solid $colorDark_400;
+    }
+    &.bg-green{
+        background: $colorGreen_500;
+        border: 1px solid $colorGreen_500;
+    }
+    .panel-title{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .cards-content{
+        margin-bottom: 10px;
+        h5{
+            float: left;
+            font-size: 42px;
+            font-weight: normal;
+            color: $colorDark_500;
+            span{
+                font-size: 14px;
+                vertical-align: middle;
+                margin-right: 10px;
+                color: $colorDark_400;
+            }
+        }
+        a{
+            float: right;
+        }
+    }
+}

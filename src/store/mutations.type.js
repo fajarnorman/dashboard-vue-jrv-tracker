@@ -1,0 +1,7 @@
+export const SET_INFO = "setInfo"
+export const PURGE_AUTH = "logOut"
+export const SET_ERROR = "setError"
+export const SET_DEVICES = "setDevices"
+export const SET_DETAIL_DEVICES = "setDetailDevices"
+export const FETCH_START = "setLoading"
+export const SET_TOKEN = "setToken"

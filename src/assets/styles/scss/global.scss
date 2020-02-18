@@ -1,0 +1,45 @@
+// Color variable
+$color-white: #fff;
+$color-white-2: #f5f5f5;
+$color-grey: #333;
+$color-grey-black: #37474f;
+$color-black: #263238;
+
+@mixin background-opacity($color, $opacity: 0.3) {
+    background: $color; /* The Fallback */
+    background: rgba($color, $opacity);
+}
+@mixin border-opacity($color, $opacity) {
+	$opacity: $opacity / 100;
+	// Unsupporting browsers get this
+	border-color: $color;
+	// Browsers that support RGBA will get this instead
+	border-color: rgba($color, $opacity);
+	// Prevent the element's background from reaching the edge of the border
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding;
+	background-clip: padding-box;
+}
+
+// Main SCSS Component
+@import
+    "../component/variable.scss",
+    "../component/typhography.scss",
+    "../component/buttons.scss",
+    "../component/animation.scss",
+    "../component/icons.scss",
+    "../component/table.scss",
+    "../component/forms.scss",
+    "../component/modal.scss",
+    "../component/flat-message.scss",
+    "../component/progress.scss",
+    "../component/spinner.scss",
+    "../component/card.scss",
+    "../component/tags.scss",
+    "../component/upload-file.scss";
+
+// Import SCSS per Page
+@import
+	"page/main.scss",
+	"page/responsive.scss",
+	"page/print.scss";
